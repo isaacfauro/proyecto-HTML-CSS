@@ -1,0 +1,487 @@
+/*TODO DETALLADO EN CADA MEDIA QUERIE*/
+@media (max-width:768px) {
+    /*RESPONSIVE-NAV*/
+    .nav__item-logo {
+        display: none;
+    }
+    .logo-img {
+        display: none;
+    }
+    .animation {
+        display: none;
+    }
+    .start {
+        display: none;
+    }
+    .nav__item-link {
+        position:absolute;
+        display: none;
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -32.5rem;
+        background-color: rgba(0, 0,0,0.3);
+        background-image: url(/img/fondos/fondo\ menu.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-items:flex-start;
+        z-index: 10;
+    }
+    .box__item-link {
+        position: relative;
+        padding: 1rem;
+        margin-left: 4rem;
+        height: 10%;
+        
+    }
+    .box__item-link:hover {
+        background-color:rgba(128, 128, 128, 0.219);
+        animation: mover 1.4s reverse ease-in-out;
+    }
+    .nav__item-menu {
+        display: block;
+    }
+    .menu-img {
+        display: block;
+    }
+    .container__nav {
+        position: static;
+    }
+    .nav__item-nameb {
+        display: none;
+    }
+
+    /*SECCION-CARNAVAL*/
+
+    div .card__s2:nth-child(3) {
+        display: none;
+    }
+    .gallery__title {
+        font-size: 2rem;
+    }
+    .gallery__item::before {
+        font-size: 2rem;
+    }
+}
+@media (max-width:325px) {
+    /*NAV-HAMBURGUESA-RESPONSIVE*/
+    .container__nav {
+        flex-direction: column;
+    }
+    .parrafo-s1 {
+        display: none;
+    }
+    .item__text-s1 {
+        gap: 1rem;
+    }
+}
+@media (max-width:605px) {
+/*RESPONSIVE-MENU-NAVBAR*/
+    .container__s1-main {
+        flex-direction: column;
+        
+    }
+    .item-ilustracion1 {
+        width: 90%;
+        height: 100%;
+        order:3;
+    }
+    
+    .item__text-s1 {
+        width: 100%;
+        gap:0;
+    }
+    .box__item-link {
+        width:70%;
+    }
+    .nav__box-monograma {
+        width: 15%;
+        height: 15%;
+    }
+    /*SECCION-S4-LACOSTA*/
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "img2 img2"
+        "img2 img2"
+        "img3 img3"
+        "img3 img3"
+        "img4 img4"
+        "img4 img4"
+        "img5 img5"
+        "img5 img5"
+        "img6 img6"
+        "img6 img6"
+        "img7 img7"
+        "img7 img7"
+        "img8 img8"
+        "img8 img8"
+        "img9 img9"
+        "img9 img9"
+        ;
+    }
+    .container__s4 {
+        height: 800vh;
+    }
+    .gallery__item:nth-child(1) {
+        display: none;
+    }
+}
+@media (max-width:483px) {
+    /*SECCION-CARNAVAL*/
+    .container__slider {
+        height: 40%;
+    }
+    .card__s2{
+        width: 16rem;
+    }
+    .card__s2:hover {
+        width:17.5rem;
+    }
+    .button-descripcion {
+        margin-top: -1rem;
+    }
+    .parrafo-s2 {
+        display: none;
+    }
+    /*S4-LACOSTA*/
+    .title-s4 {
+        margin-top: -2rem;
+        font-size: 2rem;
+    }
+    .parrafo-s4 {
+        font-size: 1.4rem;
+    }
+}
+@media (min-width:769px) and (max-width:1513px){
+/*SECCION-S1*/
+    .nameb {
+        font-size: 4rem;
+    }
+    .logo-img {
+        width:100%;
+        height: 100%;
+    }
+    .container__nav {
+        height: 40%;
+    }
+    .nav__item-link {
+        position: relative;
+        background-color: rgba(255, 166, 0, 0.699);
+        border-radius: 1rem;
+        display: flex;
+        flex-flow: nowrap;
+        width:90%;
+        height: 30%;
+        box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0,.1);
+    }
+    
+    .nav__item-link::before {
+        display: none;
+    }
+
+    .box__item-link:hover {
+        background-color: rgba(0, 0,0,0.3);
+        transition: all .4s ;
+        color:white;
+    }
+
+    .item:hover {
+        background-color: rgba(255, 255, 255, 0.74);
+        border-radius: 50%;
+    }
+
+    nav ul .box__item-link:hover:nth-child(2) {
+        border-bottom: .4rem solid orangered;
+        transition: all .4s;
+    }
+    nav ul .box__item-link:hover:nth-child(6) {
+        border-bottom: .4rem solid orangered;
+        transition: all .4s;
+    }
+    nav ul .box__item-link:hover:nth-child(3) {
+        border-bottom: .4rem solid orangered;
+        transition: all .4s;
+
+    }
+    nav ul .box__item-link:hover:nth-child(4) {
+        border-bottom: .4rem solid orangered;
+        transition: all .4s;
+    }
+/**/
+    @keyframes abrir {
+        from {
+            border-bottom: 0rem;
+        }
+        to {
+           border-bottom: .4rem;
+        }
+    }
+/**/
+    .box__item-link {
+        position: relative;
+        padding:.5rem .5rem;
+        border-left: none;
+        justify-content:center;
+        z-index: 1;
+    }
+    ul .box__item-link:nth-child(5) {
+        display: none;
+    }
+    .nav__box-monograma {
+        display: none;
+    }
+    .item-monograma {
+        display: none;
+    }
+    .link {
+        color:black;
+        font-size: 1.3rem;
+    }
+    .link:hover {
+        color:white;
+        transition: all .4s;
+    }
+    .item {
+        height: 20%;
+        width: 20%;
+    }
+    .item__text-s1 {
+        gap:1rem;
+        margin-top: 5rem;
+    }
+    .title-s1,.subtitle-s1{
+        font-size: 3rem;
+    }
+    .parrafo-s1 {
+        font-size: 1.8rem;
+    }
+    .button-s1 {
+        height: 10%;
+        width: 90%;
+        font-size: 2rem;
+    }
+    /*SECCION-NOSOTROS-PILOTOS*/
+    .container__nosotros {
+        height:180vh;
+    }
+    
+}
+@media (min-width:1000px) and (max-width:1513px) {
+    .item__text-s1 {
+        margin-top: -3rem;
+        gap:3rem;
+    }
+    .title-s1,.subtitle-s1{
+        font-size: 4rem;
+    }
+    .parrafo-s1 {
+        font-size: 2rem;
+    }
+    .button-s1 {
+        height: 10%;
+        width: 90%;
+    }
+    /*SECCION-NOSOTROS-NUESTRO-EQUIPO*/
+    .container__nosotros {
+        height:150vh;
+    }
+    .title-s2 {
+        font-size: 3.7rem;
+        height: 15%;
+    }
+    .parrafo-s2 {
+        font-size: 2.2rem;
+    }
+    /*SECCION-CARNAVAL*/
+    .parrafo__s2 {
+        font-size: 3rem;
+    }
+    .Carnaval__title {
+        font-size: 4rem;
+    }
+    /*SLIDER-SECCION*/
+    .container__slider {
+        width:90%;
+    }
+    .slider__button {
+        font-size: 2.5rem;
+    }
+    /*SECCION-S4-DESTINOS-LACOSTA*/
+    .title-s4 {
+        font-size: 5rem;
+    }
+    .parrafo-s4 {
+        font-size: 3rem;
+    }
+    .parrafo2-s4 {
+        font-size: 3.5rem;
+    }
+    .container__s4 {
+        height: 570vh;
+    }
+}
+@media (min-width:1313px) and (max-width:1513px) {
+   /*S4-LACOSTA-DESTINOS*/
+    .container__s4 {
+        height:500vh;    
+}
+}
+@media (min-width:701px) and (max-width:1100px) {
+    /*SECCION-NUESTRO-EQUIPO*/
+    div .card__s2:nth-child(3) {
+    display: none;
+    }
+    .container__nosotros {
+        height: 200vh;
+    }
+    .parrafo-s2 {
+        font-size:1.5rem; 
+        height: 12%;  
+    }
+    .title-s2 {
+        height: 12%;
+        font-size: 2.2rem;
+    }
+    /*CARNAVAL-SECCION*/
+    .Carnaval__title {
+        font-size: 3rem;
+    }
+    .parrafo__s2 {
+        font-size: 2rem;
+    }
+    .container__slider {
+    height:55%;
+    }
+}
+@media (max-width:520px){
+    /*SECCION-NUESTRO-EQUIPO*/
+    .title-s2 {
+        font-size: 2rem;
+    }
+}
+@media (min-width:668px) and (max-width:700px) {
+    /*SECCION-NUESTRO-EQUIPO*/
+    .container__nosotros {
+        height: 220vh;
+    }
+}
+@media (min-width:985px) {
+    /*SECCION-NUESTRO-EQUIPO*/
+    .parrafo-s2 {
+        font-size:1.8rem;  
+        height: 15%; 
+    }
+    .title-s2 {
+        font-size: 3rem;
+    }
+    .container__nosotros {
+        height: 150vh;
+    }
+}
+@media (max-width:999px) {
+    /*S4-LACOSTA-DESTINOS*/
+    .gallery-container {
+        grid-auto-rows: 10rem;
+    }
+}
+@media (min-width:985px) and (max-width:1312px) {
+    /*SECCION-NUESTRO-EQUIPO*/
+    .parrafo-s2 {
+        margin-top: 1rem;
+    }
+    .container__cards {
+        margin-top: -9rem;
+    }
+}
+/*secccion 5*/
+@media (min-width:550px) {
+    .box__descargar-app {
+        width: 80%;
+        
+    }
+    .box__netsletter {
+        width: 80%;
+    }
+    .text__f {
+        width:100%;
+        height: 45%;
+    }
+    .box__footer {
+        font-size: 2rem;
+    }
+    .item__support-f {
+        width:50%;
+    }
+    .red-1,.red-2,.red-3 {
+        width:20%;
+        height: 50%;
+    }
+    .box__button-app {
+        width: 55%;
+        flex-basis: 0;
+    }
+
+}
+@media (min-width:700px) {
+    .box__descargar-app {
+        width: 65%;
+        
+    }
+    .box__netsletter {
+        width: 65%;
+    }
+}
+@media (min-width:985px) {
+    .container__s5 {
+        height: 300vh;
+    }
+    .container__box-cards {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }
+
+    .box__descargar-app {
+        width: 65%;
+    }
+
+    .box__button-app {
+        width: 65%;
+        font-size: 2rem;
+    }
+
+    .item__buttom-netsl {
+        width: 65%;
+        font-size: 2rem;
+    }
+
+    .item__parrafo-app {
+        font-size: 3rem;
+    }
+    .box__netsletter {
+        width: 65%;
+    }
+    .parrafo__ilust-s5 {
+        font-size: 3rem;
+    }
+    .text__f {
+        font-size: 1.5rem;
+    }
+    .img-empresa {
+        width: 15%;
+        height: 45%;
+    }
+    .red-1,.red-2,.red-3 {
+        width:20%;
+        height: 90%;
+    }
+    .item__title-s5{
+        font-size: 5rem;
+    }
+    .item__parrafo-s5 {
+        font-size: 3rem;
+    }
+
+}
