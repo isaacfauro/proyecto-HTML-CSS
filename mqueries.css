@@ -131,7 +131,8 @@
 @media (max-width:483px) {
     /*SECCION-CARNAVAL*/
     .container__slider {
-        height: 40%;
+        height: 45%;
+        width: 75%;
     }
     .card__s2{
         width: 16rem;
@@ -348,11 +349,15 @@
     .Carnaval__title {
         font-size: 3rem;
     }
+    .container__s2 {
+        height: 150vh;
+    }
     .parrafo__s2 {
         font-size: 2rem;
     }
     .container__slider {
-    height:55%;
+    height:45%;
+    width: 75%;
     }
 }
 @media (max-width:520px){
@@ -395,7 +400,16 @@
         margin-top: -9rem;
     }
 }
-/*secccion 5*/
+
+/* Seccion-s4 */
+
+@media (min-width:350px) and (max-width:499px) {
+    .container__s4 {
+        height: 780vh;
+    }
+}
+
+/*seccciono 5*/
 @media (min-width:550px) {
     .box__descargar-app {
         width: 80%;
